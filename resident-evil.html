@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resident-Evil</title>
+    <style>
+         @font-face {
+        font-family:'blood';
+        src: url('./fonts/Bloodsoul\ PERSONAL\ USE\ ONLY!.ttf');
+    }
+
+        body{
+            margin: 0;
+            font-family: arial, sans-serif;
+            background-color:#515151;
+            color: white;
+        }
+
+        header{
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+            border-bottom:  3px solid #ff0000;
+        }
+
+        header{
+            color: #ff0000;
+        }
+
+        nav{
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: #ff0000;
+        }
+        h1{
+            font-family: 'blood';
+        }
+
+        #game{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .card{
+            background-color: #1e1e1e;
+            width: 550px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 80px #ff0000;
+        }
+
+        .card img{
+            width: 500px;
+            height: 450px;
+            border-radius: 20px;
+        }
+
+        .card h3{
+            color: #ff0000;
+        }
+
+        .btn-game{
+            margin-top: 20px;
+            background-color: #ff0000;
+            color: #1e1e1e;
+            padding: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            border-radius: 15px;
+        }
+
+        .btn-game:hover{
+            color: #ff0000;
+            background-color: #1e1e1e;
+            box-shadow: 0 0 15px #ff0000;
+            transform: translateY(-2px);
+        }
+        .btn-game:active{
+            transform: scale(00.95);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1> 🔪HorrorHub🕹️ </h1>
+    </header>
+
+    <nav>
+        <a href="./home.html#banner"> Início </a>
+        <a href="./home.html#jogos"> Jogos </a>
+        <a href="./home.html#ranking"> Ranking </a>
+        <a href="home.html"> Sair </a>
+    </nav>
+    
+    <section id="game">
+
+        <div class="card">  
+            <img src="./img/Resident-Evil.jpeg" alt="resident-evil"> 
+            <a href="https://www.youtube.com/watch?v=FmimTxJ0G5c" target="_blank" class="btn-game">JOGAR🎯</a>
+            <p>Mundo pós-apocalípse</p>
+        </div>
+    </section>
+
+</body>
+</html>
